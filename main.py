@@ -3,7 +3,7 @@ import mediapipe as mp
 import numpy as np
 import cv2
 
-
+p
 def detectFaces(image, face_detection):
     # Mark image as not writeable for improved performance & convert to RGB
     image.flags.writeable = False
@@ -60,8 +60,7 @@ def main():
 
         count = 1
         cap = cv2.VideoCapture(0)
-        while cap.isOpened():
-            start_time = time.time()   
+        while cap.isOpened():  
             ret, frame = cap.read()
             # Check if the frame is empty
             if not ret:
