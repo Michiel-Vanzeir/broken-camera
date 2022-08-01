@@ -3,7 +3,7 @@
 <br />
 <div align="center">
     <img src="images/camera.jpg" style="height:80%; width:80%;">
-<h2 align="center">A Broken Camera</h2>
+<h3 align="center">A Broken Camera</h3>
 
   <p align="center">
     The solution to unsollicited pictures
